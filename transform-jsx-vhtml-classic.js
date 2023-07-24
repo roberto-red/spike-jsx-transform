@@ -9,10 +9,10 @@ const result = babel.transformSync(rawCode, {
     [
       '@babel/preset-react',
       {
-        "runtime": "classic",
-        "pragma": "h",
-        "pragmaFrag": "h",
-        "throwIfNamespace": true,
+        runtime: 'classic',
+        pragma: 'h',
+        pragmaFrag: 'h',
+        throwIfNamespace: true,
       },
     ],
   ],

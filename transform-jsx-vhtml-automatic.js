@@ -9,8 +9,8 @@ const result = babel.transformSync(rawCode, {
     [
       '@babel/preset-react',
       {
-        "runtime": "automatic",
-        "importSource": "vhtml",
+        runtime: 'automatic',
+        importSource: 'vhtml',
       },
     ],
   ],
